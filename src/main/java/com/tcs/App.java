@@ -14,5 +14,11 @@ public class App
 
     public void setMessage(String msg){
         this.msg=msg;
+   
+   
+   //BUG-1 partially fixed
+    public String getMessage(String str){
+      System.out.pritln("Get Message");
+        return str.toLowercase();
     }
 }
